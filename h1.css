@@ -1,0 +1,13 @@
+h1 {font: bold 48px/1em 'Conslas',monospace; color: #000000;}
+
+span{
+    display: inline-block;height: 1em;width: 0ch;
+    overflow: hidden;margin-right: 6ch;
+    vertical-align: top;color: #ffffff;
+    animation: shrink steps(6) 3s infinite alternate;
+}
+
+@keyframes shrink {
+    0%, 10% { width: 0ch; margin-right: 6ch; }
+    40%, 100% { width: 6ch; margin-right: 0ch; }
+  }
